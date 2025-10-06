@@ -12,8 +12,7 @@ Este projeto é uma aplicação web que calcula o valor total do material presen
 
 A aplicação possui um backend em **Node.js com Express** para a lógica de cálculo e um **frontend em HTML, CSS e JavaScript** para a interface do usuário, onde é possível inserir a posição do tabuleiro e visualizar o resultado e o tabuleiro graficamente.
 
-![Screenshot da Aplicação](https://via.placeholder.com/600x400.png?text=Adicione+um+screenshot+aqui)
-*(Dica: Após subir o projeto, tire um print da aplicação funcionando e substitua o link acima)*
+![Screenshot da Aplicação](./resources/screenshot_app.png)
 
 ---
 
