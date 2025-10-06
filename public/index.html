@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliador de Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Desafio Técnico: Avaliação de Material no Xadrez</h1>
+        <p>Insira a representação do tabuleiro abaixo (8 linhas, 8 caracteres por linha).</p>
+
+        <div class="input-area">
+            <textarea id="boardInput" rows="8" cols="10"
+                placeholder="rnbqkbnr&#10;pppppppp&#10;........&#10;........&#10;........&#10;........&#10;PPPPPPPP&#10;RNBQKBNR"></textarea>
+            <button id="evaluateBtn">Avaliar Tabuleiro</button>
+        </div>
+
+        <div id="result" class="result-container">
+            <!-- O resultado da avaliação aparecerá aqui -->
+        </div>
+
+        <div id="chessboard" class="chessboard-container">
+            <!-- O tabuleiro visual aparecerá aqui -->
+        </div>
+
+        <footer>Criado por <a href="https://github.com/ale-fuentes-ar" target="_blank">ale fuentes</a></footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
