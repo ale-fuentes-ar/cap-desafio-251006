@@ -148,3 +148,42 @@ footer a {
 footer a:hover {
     color: var(--accent-color);
 }
+
+/* Estilos para a área de instruções */
+.instructions {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    text-align: left;
+    border: 1px solid #555;
+}
+
+.instructions p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.instructions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+}
+
+.instructions li {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.instructions code {
+    background-color: #222;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}

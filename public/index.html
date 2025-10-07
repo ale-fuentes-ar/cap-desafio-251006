@@ -11,11 +11,17 @@
 <body>
     <div class="container">
         <h1>Desafio Técnico: Avaliação de Material no Xadrez</h1>
-        <p>Insira a representação do tabuleiro abaixo (8 linhas, 8 caracteres por linha).</p>
+        <div class="instructions">
+            <p>Preencha a caixa de texto com 8 linhas de 8 caracteres cada para representar o tabuleiro.</p>
+            <ul>
+                <li><strong>Peças Brancas (Maiúsculas):</strong> P, N, B, R, Q, K</li>
+                <li><strong>Peças Pretas (Minúsculas):</strong> p, n, b, r, q, k</li>
+                <li><strong>Casas Vazias:</strong> use um ponto (<code>.</code>) ou espaço ( )</li>
+            </ul>
+        </div>
 
         <div class="input-area">
-            <textarea id="boardInput" rows="8" cols="10"
-                placeholder="rnbqkbnr&#10;pppppppp&#10;........&#10;........&#10;........&#10;........&#10;PPPPPPPP&#10;RNBQKBNR"></textarea>
+            <textarea id="boardInput" rows="8" cols="10"></textarea>
             <button id="evaluateBtn">Avaliar Tabuleiro</button>
         </div>
 

@@ -47,12 +47,12 @@ Siga os passos abaixo para configurar e rodar a aplicação em sua máquina.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/[seu-username-do-github]/desafio-xadrez.git
+    git clone https://github.com/ale-fuentes-ar/cap-desafio-251006
     ```
 
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd desafio-xadrez
+    cd cap-desafio-251006
     ```
 
 3.  **Instale as dependências do backend:**
